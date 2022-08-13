@@ -148,14 +148,14 @@ main section img {
 
 /*==========================*/
 
-/* 02 */
-.works p:nth-of-type(1) {
-    padding: 10vh 8% 5vh 90%;
-}
-
 .works {
     background: #DEB873;
     color: #7D2222;
+}
+
+/* 02 */
+.works p:nth-of-type(1) {
+    padding: 10vh 8% 5vh 90%;
 }
 
 /* WORKS */
@@ -179,8 +179,8 @@ h5 {
     margin-left: 8%;
 }
 
+/* RODRIGO MARCONATTO */
 main section article:nth-of-type(1) {
-    /* padding: 0 0 50vh 0; */
     background: url("../img/bg-marconatto-1.jpg") 100% no-repeat;
     background-size: 50vw;
     background-position: right;
@@ -189,11 +189,47 @@ main section article:nth-of-type(1) {
     padding-bottom: 30vh;
 }
 
-/*==========================*/
+main section article:nth-of-type(2) {
+    background-image: url('../img/kathe_cover-1.jpg');
+    background-size: 50vw;
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: right;
+    margin: 20vh 10vw 30vh 10vw;
+    padding-bottom: 30vh;
+}
+
+main section article:nth-of-type(3) {
+    background-image: url('../img/bg-nicole-1.jpg');
+    background-size: 50vw;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 20vh 10vw 30vh 10vw;
+    padding-bottom: 30vh;
+}
+
+main section article:nth-of-type(4) {
+    background-image: url('../img/boa_cover-1.jpg');
+    background-size: 50vw;
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: right;
+    margin: 20vh 10vw 0 10vw;
+    padding: 20vh 0 50vh;
+}
+
+/*===========================
+        Footer
+===========================*/
 
 footer {
     background: #D2D2D2;
     color: #388883;
+}
+
+/* 03 */
+footer p:nth-of-type(1) {
+    padding: 10vh 8% 5vh;
 }
 
 /* CONTACT */
@@ -204,26 +240,29 @@ h4 {
     font-weight: 400;
 }
 
-/*===========================
-        Footer
-===========================*/
-
-footer nav {
-    text-align: right;
-    margin-right: 8vw;
+footer p:nth-of-type(2) {
+    padding: 0 0 0 25%;
+    line-height: 2rem;
+    width: 40%;
 }
 
-footer nav ul li {
+footer div {
+    text-align: right;
+    margin-right: 8%;
+    padding-bottom: 5vh;
+}
+
+footer div ul li {
     list-style: none;
     padding: 1vh;
 }
 
-footer nav ul li a {
+footer div ul li a {
     color: #388883;
     text-decoration: none;
 }
 
-footer nav ul li a:hover {
+footer div ul li a:hover {
     text-decoration: underline;
 }
 
