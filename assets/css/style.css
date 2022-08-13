@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*===========================
+        General Styles
+===========================*/
+
+/* Fonts */
+@font-face {
+    font-family: Athene;
+    src: url("../fonts/Athene.otf");
+}
+
+@font-face {
+    font-family: Befont;
+    src: url("../fonts/Befonts.com.url");
+}
+
+@font-face {
+    font-family: Ellis;
+    src: url("../fonts/Readme.txt");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+/*===========================
+        Header
+===========================*/
+
+nav {
+    color: #042A5A;
+    border-bottom: 1px solid #042A5A;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 10%;
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    font-family: Athene;
+    font-size: 10rem;
+    color: #042A5A;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 10vh;
+    border-bottom: 1px solid #042A5A;
+    margin: 0 10% 0 10%;
+}
+
+header {
+    background: #EFE8D7;
+    color: #042A5A;
+}
+
+header img {
+    width: 100%;
+    padding: 10vh 40% 5vh;
+}
+
+figcaption {
+    display: flex;
+    align-items: baseline;
+    margin: auto;
+    width: 20%;
+    padding-bottom: 20vh;
+}
+
+span {
+    font-family: Athene;
+    margin-right: 2%;
+}
+
+/*===========================
+        Main
+===========================*/
+
+.release {
+    background: #F4C4C4;
+}
+
+/* 01 */
+.release p:nth-of-type(1) {
+    padding: 10vh 8% 5vh;
+}
+
+/* RELEASE */
+h2 {
+    font-family: Athene;
+    font-size: 10rem;
+    font-weight: 400;
+}
+
+.release p:nth-of-type(2) {
+    padding: 0 8% 0 60%;
+    line-height: 2rem;
+}
+
+.release table {
+    font-family: 'Open Sans', sans-serif;
+    color: #282B29;
+    padding: 10vh 5% 5vh 50%;
+}
+
+.release table tr th {
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-bottom: 1px solid #282B29;
+    width: 100%;
+}
+
+.release table tr td:first-of-type {
+    font-size: 0.9rem;
+    border-bottom: 1px solid #282B29;
+    width: 10%
+}
+
+.release table tr td:nth-of-type(2) {
+    font-size: 1.4rem;
+    width: 80%;
+    border-bottom: 1px solid #282B29;
+}
+
+.release table tr td:last-of-type {
+    text-align: right;
+    font-size: 0.9rem;
+    width: 10%;
+    border-bottom: 1px solid #282B29;
+    padding: 2vh 0;
+}
+
+/* Sticker / Let's work together */
+main section img {
+    width: 100%;
+    padding: 0 5% 5vh 90%;
+    /* margin: 5vh 5% 5vw 90vw; */
+}
+
+/*==========================*/
+
+/* 02 */
+.works p:nth-of-type(1) {
+    padding: 10vh 8% 5vh 90%;
+}
+
+.works {
+    background: #DEB873;
+    color: #7D2222;
+}
+
+/* WORKS */
+h3 {
+    font-family: Athene;
+    font-size: 10rem;
+    font-weight: 400;
+    text-align: right;
+}
+
+.works p:nth-of-type(2) {
+    padding: 0 60% 20vh 8%;
+    line-height: 2rem;
+}
+
+/* Künstlernamen */
+h5 {
+    font-family: Athene;
+    font-size: 5rem;
+    font-weight: 400;
+    margin-left: 8%;
+}
+
+main section article:nth-of-type(1) {
+    /* padding: 0 0 50vh 0; */
+    background: url("../img/bg-marconatto-1.jpg") 100% no-repeat;
+    background-size: 50vw;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 20vh 10vw 30vh 10vw;
+    padding-bottom: 30vh;
+}
+
+/*==========================*/
+
+footer {
+    background: #D2D2D2;
+    color: #388883;
+}
+
+/* CONTACT */
+h4 {
+    font-family: Athene;
+    color: #388883;
+    font-size: 10rem;
+    font-weight: 400;
+}
+
+/*===========================
+        Footer
+===========================*/
+
+footer nav {
+    text-align: right;
+    margin-right: 8vw;
+}
+
+footer nav ul li {
+    list-style: none;
+    padding: 1vh;
+}
+
+footer nav ul li a {
+    color: #388883;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Option + shift + - längerer Bindestrich */
